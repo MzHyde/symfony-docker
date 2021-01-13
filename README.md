@@ -6,6 +6,7 @@
 - Nginx Web server
 - MySQL 
 - Symfony 5 framework
+- Composer
 - PhpMyAdmin - manage MySQL
 - Mailhog - local mailing server to test emails
 

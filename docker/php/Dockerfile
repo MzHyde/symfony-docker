@@ -12,6 +12,5 @@ RUN apt-get update && apt-get install -y \
 
 ENV COMPOSER_HOME /tmp
 ENV COMPOSER_VERSION 1.8.5
-
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer

@@ -6,6 +6,7 @@
 - Nginx Web server
 - MySQL 
 - Symfony 5 framework
+- Composer
 - PhpMyAdmin - manage MySQL
 - Mailhog - local mailing server to test emails
 
@@ -15,7 +16,7 @@
     ```
     git clone https://github.com/MzHyde/symfony-docker.git
     ```
-2. Change to directory
+2. Change directory
     ```
     cd symfony-docker
     ```
@@ -23,7 +24,7 @@
     ```
      docker-compose up -d
     ```
-4. Change to directory
+4. Change directory
     ```
     cd app
     ```

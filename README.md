@@ -46,7 +46,7 @@ You may have to change the chosen ports in docker-compose.yml if they are alread
   
 -----------
  
-###Known causes of failure
+### Known causes of failure
 
  Can't connect to one of the ports via browser?
  

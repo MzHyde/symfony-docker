@@ -42,3 +42,16 @@ Mailhog can be accessed via http://localhost:8025
 
 You may have to change the chosen ports in docker-compose.yml if they are already in use
 
+ 
+  
+-----------
+ 
+###Known causes of failure
+
+ Can't connect to one of the ports via browser?
+ 
+ - try adding 127.0.0.1 to the ports section of the affected container in docker-compose.yml in front of the mapped port. 
+ 
+ For example: 
+ change "8080:80" to "127.0.0.1:8080:80"
+  

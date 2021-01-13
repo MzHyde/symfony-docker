@@ -6,7 +6,7 @@ services:
       context: ./docker/php
     volumes:
       - ./app:/opt/app
-      - ./docker/php/zz-log.conf:/usr/local/etc/php-fpm.d/zz-log.conf
+      - ./docker/php
   web:
     image: nginx:latest
     depends_on:
@@ -19,7 +19,7 @@ services:
   mysql:
     image: mysql:latest
     volumes:
-      - ./app:/opt/app
+      - ./var/lib/mysql
     environment:
       MYSQL_USER: user
       MYSQL_PASSWORD: user

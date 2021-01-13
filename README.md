@@ -40,3 +40,5 @@ PhpMyAdmin can be accessed via http://localhost:8181
 
 Mailhog can be accessed via http://localhost:8025
 
+You may have to change the chosen ports in docker-compose.yml if they are already in use
+
